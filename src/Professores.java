@@ -32,15 +32,16 @@ public class Professores extends Funcionarios {
     }
     @Override
     public double calculoReembolso() {
-        System.out.println(" o reembolso foi efetuado com Sucesso");
+        System.out.println(" o reembolso DO PROFESSOR foi efetuado com Sucesso");
         return 0;
     }
 
     public void adicionarEstagiario(String alunosEstagiarios) {
-        if (alunosEstagiarios.length() > 2) {
+        if (alunosEstagio.size() > 2) {
             System.out.println("Impossível vincular mais estagiários");
         } else {
             alunosEstagio.add(alunosEstagiarios);
+            System.out.println(" Estágiário  " +alunosEstagiarios+"  inserido com sucesso");
         }
     }
 

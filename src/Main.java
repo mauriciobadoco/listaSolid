@@ -7,6 +7,7 @@ public class Main {
         p1.adicionaTurma(2);
         p1.setNivelGraduacao("Mestrado");
         p1.adicionarEstagiario("Candido");
+        p1.calculoReembolso();
         System.out.println("Nome Professor: " + p1.getNome());
         System.out.println("Salário professor: " +p1.getSalario());
         System.out.println("Salário aumentado: " + p1.aumentoSalario());
@@ -27,6 +28,7 @@ public class Main {
         FuncionariosAdministrativos a1 = new FuncionariosAdministrativos("Ana","14857985487",12715,"Secretaria",1200,"Auxiliar","Júnior");
         a1.setSalario (500);
         a1.aumentoSalario();
+        a1.calculoReembolso();
         System.out.println("Nome Administrativo: " + a1.getNome());
         System.out.println("Salário administrativo: " +a1.getSalario());
         System.out.println("Salário aumentado: " + a1.aumentoSalario());

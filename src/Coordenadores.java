@@ -11,7 +11,7 @@ public abstract class Coordenadores extends Funcionarios{
     }
     @Override
     public double calculoReembolso() {
-        System.out.println(" o reembolso foi efetuado com Sucesso");
+        System.out.println(" o reembolso DO COODENADOR foi efetuado com Sucesso");
         return 0;
     }
     public double aumentoSalario(){

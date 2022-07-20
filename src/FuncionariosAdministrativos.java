@@ -11,7 +11,7 @@ public class FuncionariosAdministrativos extends Funcionarios{
     }
     @Override
     public double calculoReembolso() {
-        System.out.println(" o reembolso foi efetuado com Sucesso");
+        System.out.println(" o reembolso DO FUNCIONÁRIO ADMINISTRATIVO foi efetuado com Sucesso");
         return 0;
     }
 
